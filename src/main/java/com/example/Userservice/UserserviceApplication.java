@@ -1,16 +1,16 @@
 package com.example.Userservice;
 
-import com.example.Userservice.model.Role;
-import com.example.Userservice.model.Users;
-import com.example.Userservice.service.UserService;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
 import java.util.ArrayList;
 
+
 @SpringBootApplication
+@EnableAutoConfiguration(exclude={UserDetailsServiceAutoConfiguration.class})
 public class UserserviceApplication {
 
 	public static void main(String[] args) {

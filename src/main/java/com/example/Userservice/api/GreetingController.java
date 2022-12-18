@@ -7,22 +7,22 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-@RestController
-@RequiredArgsConstructor
-@RequestMapping("/api/v1/greetings")
+//@RestController
+//@RequiredArgsConstructor
+//@RequestMapping("/api/v1/greetings")
 public class GreetingController {
 
-    @GetMapping
-    public ResponseEntity<String> sayHello(){
-        return ResponseEntity.ok("Hello from our API");
-
-    }
-
-    @GetMapping("/say-Goodbye")
-    public ResponseEntity<String> sayGoodBye(){
-        return ResponseEntity.ok("Good by and see you later");
-    }
-
+//    @GetMapping
+//    public ResponseEntity<String> sayHello(){
+//        return ResponseEntity.ok("Hello from our API");
+//
+//    }
+//
+//    @GetMapping("/say-Goodbye")
+//    public ResponseEntity<String> sayGoodBye(){
+//        return ResponseEntity.ok("Good by and see you later");
+//    }
+//
 
 //    private final UserService userService;
 //
