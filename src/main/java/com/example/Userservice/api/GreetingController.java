@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 //@RestController
 //@RequiredArgsConstructor
 //@RequestMapping("/api/v1/greetings")
-public class GreetingController {
+//public class GreetingController {
 
 //    @GetMapping
 //    public ResponseEntity<String> sayHello(){
@@ -64,4 +64,4 @@ public class GreetingController {
 //}
 //
 
-}
+//}
